@@ -1,0 +1,53 @@
+.container {
+  position: relative;
+  width: 19rem;
+  height: 13rem;
+
+  background-image: url("/assets/daniel-thomas-gWlBxOAgXgQ-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--title);
+  opacity: 0.6;
+  z-index: 2;
+}
+
+.container .content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .content button {
+  background-color: transparent;
+  outline: none;
+  font-weight: bold;
+  border: 2px solid var(--secondary);
+  padding: 0.5rem 2rem;
+  color: var(--secondary);
+  cursor: pointer;
+  transition: 400ms ease;
+}
+
+.container .content button:hover {
+  color: var(--title);
+  background-color: var(--secondary);
+}
+
+@media (max-width: 640px) {
+  .container {
+    width: 100%;
+    height: 15rem;
+  }
+}

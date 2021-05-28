@@ -1,0 +1,38 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  height: 5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 3rem;
+
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+.container section:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container section:first-child span {
+  margin-right: 1rem;
+}
+
+.container a {
+  padding: 1rem;
+  cursor: pointer;
+  transition: 400ms ease;
+}
+
+.container a:hover {
+  color: var(--title);
+  border-bottom: 1px solid var(--title);
+}
