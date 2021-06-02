@@ -1,8 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import FirstSection from './components/FisrtSection'
-import SecondSection from './components/SecondSection'
-import Toolbar from './components/Toolbar'
+import CareerSection from '../components/CareerSection'
+import ContactSection from '../components/ContactSection'
+import FirstSection from '../components/FisrtSection'
+import SecondSection from '../components/SecondSection'
+import ServiceSection from '../components/ServicesSection'
+import Toolbar from '../components/Toolbar'
 
 export default function Home() {
   return (
@@ -10,6 +13,9 @@ export default function Home() {
       <Toolbar />
       <FirstSection />
       <SecondSection />
+      <CareerSection />
+      <ServiceSection />
+      <ContactSection />
     </div>
   )
 }

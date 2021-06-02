@@ -8,8 +8,8 @@ function Toolbar() {
         <table>
           <tbody>
             <tr>
-              <td> <a href="#">  Home  </a> </td>
-              <td> <a href="#">  About  </a> </td>
+              <td> <a href="#first-section">  Home  </a> </td>
+              <td> <a href="#second-section">  About  </a> </td>
               <td> <a href="#">  Career  </a> </td>
               <td> <a href="#">  Services  </a> </td>
               <td> <a href="#">  Projects  </a> </td>

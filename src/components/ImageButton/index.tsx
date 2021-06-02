@@ -1,3 +1,4 @@
+import PrimaryButton from '../PrimaryButton'
 import styles from './ImageButton.module.css'
 
 function ImageButton() {
@@ -5,9 +6,9 @@ function ImageButton() {
     <div className={styles.container}>
       <div className={styles.overlay} />
       <div className={styles.content}>
-        <button>
+        <PrimaryButton onClick={() => console.log('clicou')}>
           GET MORE INFORMATION
-        </button>
+        </PrimaryButton>
       </div>
     </div>
   )

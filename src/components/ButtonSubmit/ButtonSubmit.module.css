@@ -1,0 +1,18 @@
+.submit {
+  position: relative;
+  padding: 1rem 1.5rem;
+
+  outline: none;
+  border: none;
+
+  border-radius: 20px;
+  background-color: var(--primary);
+  color: var(--secondary);
+
+  cursor: pointer;
+}
+
+.submit span {
+  font-size: 1rem;
+  font-weight: bold;
+}

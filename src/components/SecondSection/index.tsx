@@ -3,13 +3,13 @@ import styles from './SecondSection.module.css'
 
 function SecondSection () {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="second-section">
       <main>
         <div id={styles.head}> 
           <h1 id={styles.h1mobile}> ABOUT </h1>
           <ImageButton /> 
         </div>
-        <div>
+        <div id={styles.body}>
           <h1 id={styles.h1full}> ABOUT </h1>
           <strong> I am a professional specialized in the development of websites, portfolios, electronic commerce and etc ... </strong>
           <p>

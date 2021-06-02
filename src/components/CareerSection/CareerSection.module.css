@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 10rem 1rem;
+
+  background-color: var(--title);
+  background-image: url("/assets/E-Commerce-Website-Development-company-In-India.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container p {
+  font-size: 2rem;
+  color: var(--secondary);
+  margin-bottom: 5rem;
+  text-align: center;
+  font-weight: 500;
+}

@@ -17,7 +17,11 @@ a {
 
 :root {
   --primary: #444;
+  --primary-dark: #1d1d1d;
+  --primary-light: #6f6f6f;
   --secondary: #fff;
-  --title: #c89a69!important;
+  --title: #c89a69;
+  --title-dark: #956c3d;
+  --title-light: #fdcb98;
   --strong: #212529;
 }
